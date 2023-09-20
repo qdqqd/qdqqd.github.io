@@ -6,11 +6,11 @@ setInterval(function() {
 	countTime += 1;
 	if (countTime % 10 == 7) {
 		countImg += 1;
-		bg1Container.style.backgroundImage = `url(https://api.qdqqd.com/api/ppt-pe.php?${countImg})`;
+		bg1Container.style.backgroundImage = `url(https://img.qdqqd.com/?type=pe&time=${countImg})`;
 
 	} else if ((countTime + 5) % 10 == 7) {
 		countImg += 1;
-		bg2Container.style.backgroundImage = `url(https://api.qdqqd.com/api/ppt-pe.php?${countImg})`;
+		bg2Container.style.backgroundImage = `url(https://img.qdqqd.com/?type=pe&time=${countImg})`;
 	}
 }, 2000);
 
