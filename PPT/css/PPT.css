@@ -1,1 +1,61 @@
-html, body {margin: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }  .bg { width: 100%; height: 100%; position: fixed; z-index: -1;background-attachment: fixed; background-size: cover; animation: bg 16s infinite;}  #bg1 { background-image: url("https://jsd.cdn.zzko.cn/gh/qdqqd/url-core/wp.jpg");background-size: contain; background-position:center;}  #bg2 { animation-delay: 8s;background-size: contain;background-position:center; }  @keyframes bg{ 0%{transform: scale(1.5, 1.5);opacity: 0;} 20%{opacity: 1;} 30%{transform: scale(1, 1);} 50%{opacity: 1;} 70%{opacity: 0;} 100%{opacity: 0;} }
+html,
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+cursor: url('https://jsd.cdn.zzko.cn/gh/qdqqd/url-core/0.cur'), auto;
+}
+.bg {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	background-attachment: fixed;
+	background-size: cover;
+	animation: bg 16s infinite;
+}
+
+#bg1 {
+	background-image: url("https://jsd.cdn.zzko.cn/gh/qdqqd/url-core/wp.jpg");
+	background-size: contain;
+	background-position: center;
+}
+
+#bg2 {
+	animation-delay: 8s;
+	background-size: contain;
+	background-position: center;
+}
+
+@keyframes bg {
+	0% {
+		transform: scale(1.5, 1.5);
+		opacity: 0;
+	}
+
+	20% {
+		opacity: 1;
+	}
+
+	30% {
+		transform: scale(1, 1);
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	70% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
