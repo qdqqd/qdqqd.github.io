@@ -3,7 +3,7 @@ body {
 }
 * {
     -webkit-tap-highlight-color: transparent;
-cursor: url('https://jsd.cdn.zzko.cn/gh/qdqqd/url-core/0.cur'), auto;
+cursor: url('https://testingcf.jsdelivr.net/gh/qdqqd/url-core/0.cur'), auto;
 }
 ::selection {
     color: #e0e0e0;
@@ -22,7 +22,7 @@ cursor: url('https://jsd.cdn.zzko.cn/gh/qdqqd/url-core/0.cur'), auto;
  background-attachment: fixed;
     background-position: center;
     background-color: #818181;
-    background-image: url('https://cdn.jsdelivr.us/gh/qdqqd/url-core/wp.jpg');
+    background-image: url('https://testingcf.jsdelivr.net/gh/qdqqd/url-core/wp.jpg');
 }
 #rin-bg:after {
     top: 0;
