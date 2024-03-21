@@ -9,7 +9,7 @@ body {
 }
 * {
     -webkit-tap-highlight-color: transparent;
-cursor: url('https://jsd.cdn.zzko.cn/gh/qdqqd/url-core/0.cur'), auto;
+cursor: url('https://testingcf.jsdelivr.net/gh/qdqqd/url-core/0.cur'), auto;
 }
 .bg {
 	width: 100%;
@@ -22,7 +22,7 @@ cursor: url('https://jsd.cdn.zzko.cn/gh/qdqqd/url-core/0.cur'), auto;
 }
 
 #bg1 {
-	background-image: url("https://jsd.cdn.zzko.cn/gh/qdqqd/url-core/wp.jpg");
+	background-image: url("https://testingcf.jsdelivr.net/gh/qdqqd/url-core/wp.jpg");
 	background-size: contain;
 	background-position: center;
 }
